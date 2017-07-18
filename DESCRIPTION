@@ -3,8 +3,9 @@ Type: Package
 Title: R-Golf, codegolf functions for R
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: J. Dubbeldam <https://codegolf.stackexchange.com/users/59530/jarko-dubbeldam>
+Maintainer: J. Dubbeldam <jarkodubbeldam@gmail.com>
 Description: This are functions that serve as replacement for long pieces of code, to make R that little bit golfier.
 License: CC BY-NC 4.0
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
