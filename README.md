@@ -25,5 +25,6 @@ One of those pesky things about packages, especially when you need to use multip
     
 ## Current included functions:
 
-[`C`](https://github.com/JarkoDubbeldam/RG/blob/appendString/R/C.R): Numerical concatenation. Paste digits together and output a numeric.
-[`+`](https://github.com/JarkoDubbeldam/RG/blob/appendString/R/AppendStrings.R): Augmented to be useful for strings. Works like `paste0` on strings.
+ - [`C`](https://github.com/JarkoDubbeldam/RG/blob/appendString/R/C.R): Numerical concatenation. Paste digits together and output a numeric.
+
+ - [`+`](https://github.com/JarkoDubbeldam/RG/blob/appendString/R/AppendStrings.R): Augmented to be useful for strings. Works like `paste0` on strings.
