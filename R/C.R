@@ -12,5 +12,5 @@
 C <- function(...){
   Load()
   x <- as.numeric(paste0(...))
-  ifelse(length(x), x, 0)
+  if(length(x))x else 0
 }
