@@ -1,5 +1,5 @@
 #' Split a vector into single characters or digits
-#' 
+#'
 #' Takes a string and returns all separated characters. If the input is numeric, the input is split into its digits and returned as numerics.
 #'
 #' @param x Vector to split. Can be numeric or character.
@@ -13,7 +13,7 @@
 #' s(c("bla", "bla"))
 #' s(155)
 #' s(c(151, 239))
-s <- function(x, on == ""){
+s <- function(x, on = ""){
   Load()
   num <- is.numeric(x)
   split <- strsplit(as.character(x), on)
